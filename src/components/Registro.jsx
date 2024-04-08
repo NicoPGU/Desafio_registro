@@ -1,12 +1,18 @@
 import SocialButton from "./SocialButton"
 import Formulario from "./Formulario"
 import Alert from "./Alert"
- //No se como enviar los iconos
-const Registro = () => {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
+
+ const Registro = () => {
     return (
         <>
-
-        <SocialButton   />
+        <SocialButton
+        facebook =<FontAwesomeIcon icon={faFacebook}/>
+        github = <FontAwesomeIcon icon={faGithub}/>
+        linkedin = <FontAwesomeIcon icon={faLinkedin}/> 
+        />
         <Formulario/>
         <Alert />
         </>

@@ -71,7 +71,7 @@ const Formulario = () => {
                 />
                 {validacion ? <p className="validacion">Las contraseñas no coinciden</p> : null}
             </div>
-            <button type="submit" className="btn btn-success ">Registrarse</button>
+            <button type="submit" className="btn btn-primary ">Registrarse</button>
             {error ? <p className="error">Completa todos los campos</p> : null}
         </form>
         </>
